@@ -181,6 +181,6 @@ if __name__ == "__main__":
     print(normalized_feature_space_points)
 
     """
-    第三问的结果
+    第三问的结果 
     """
     verify(normalized_feature_space_points,normalized_kernel_matrix) #验证核技巧（中心化标准化后特征空间中的点积结果等于中心化标准化后核矩阵中对应的值）
